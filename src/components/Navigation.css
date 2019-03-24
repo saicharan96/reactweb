@@ -1,0 +1,43 @@
+.navbar
+{
+    width:100%;
+    background:#20232A;
+font-style: normal;
+font-weight: 700;
+display:flex;
+font-family: 'Lato', sans-serif;
+}
+.logo
+{
+ text-decoration:none;
+ font-size:18px;
+ color:#ffffff;
+ padding:10px;
+}
+.navigation
+{
+    display:flex;
+    height:100%;
+}
+.navtabs ul{
+    list-style:none;
+    margin:0;
+    padding: 0;
+    display:flex;
+}
+.navtabs ul li
+{
+    display:inline-block;
+    padding:10px 20px;
+  
+}
+.navtabs ul li a{
+    text-decoration:none;
+    color:#41E0FD;
+    font-size:17px;
+    line-height:22px;
+}
+.spacer
+{
+    flex: 0.4;
+}
