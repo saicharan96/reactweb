@@ -1,11 +1,12 @@
 import React  from 'react';
-
+import {Helmet} from "react-helmet";
 
 const About = () => 
 {
     return(
 <div className="container">
-  <div class="card">
+  <Helmet><title>About Me</title></Helmet>
+  <div class="card top">
     <h4><b>About</b></h4> 
     <p>A passionate digital marketer expertise in building SEO friendly responsive websites and optimize according to the business needs to drive traffic in different search engines of different countries like Google,Yandex, Microsoft Bing, Baidu, Yahoo Gemini.</p> 
 <br/>
