@@ -78,54 +78,67 @@ const Home = () =>
 <div className="timelinemain">
 <div className="container top">
             <div className="row">
-                <div className="col-md-10" >
+                <div className="col-md-12" >
                     <center>
-                      <h3>Event Timeline</h3>
+                      <h3>Education & Experience</h3>
     <ul className="timeline">
     	 <div className="time">
-					<center><h4 >DAY 1: MARCH 25th 2019 (MONDAY)</h4></center>
 				<br/>
 			</div>
         <li>
 
-          <div className="timeline-badge warning"><img className="smallimg" src={require('../assets/hosting.png')} /></div>
+          <div className="timeline-badge info"><img className="microimg" src={require('../assets/school.png')} /></div>
 
           <div className="timeline-panel">
             <div className="timeline-heading">
-              <h4 className="timeline-title">INAUGURATION</h4>
-              <p><small className="text-muted"><i class="glyphicon glyphicon-time"></i> 9:30 AM - 11:00 AM</small></p>
+              <h4 className="timeline-title">Computer Science and Engineering</h4>
+              <p><small className="text-muted"><i class="glyphicon glyphicon-time"></i> 2014-2018</small></p>
             </div>
             <div className="timeline-body">
-              <p>All the participants are requested to complete their registration before the Inaugration.</p>
-               <p><span>Raman Auditorium</span></p>
+              <p>Completed my Engineering in computer science with quite decent score 7.5 as GPA. One of the biggest achievement for me is winning "Smart India Hackathon 2017". </p>
+               <p><b>KCG College of Technology</b></p>
             </div>
           </div>
         </li><br/>
         <li className="timeline-inverted">
-          <div className="timeline-badge success"><img className="smallimg" src={require('../assets/hosting.png')} /></div>
+          <div className="timeline-badge info"><img className="microimg" src={require('../assets/skyline.png')} /></div>
           <div className="timeline-panel">
             <div className="timeline-heading">
-              <h4 className="timeline-title">GUEST LECTURE</h4>
-              <p><small className="text-muted"><i class="glyphicon glyphicon-time"></i> 11:30 AM - 12:30 NOON</small></p>
+              <h4 className="timeline-title">SEO Analyst</h4>
+              <p><small className="text-muted"><i class="glyphicon glyphicon-time"></i> Dec 2016 -Jan 2018</small></p>
             </div>
             <div className="timeline-body">
-              <p>The Guest Lecture will be starting sharply at the displayed time, participants are requested to be on time.</p>
-		    <p><span>Raman Auditorium</span></p>
+              <p>Basic Responsibility is to monitor the page ranking and to optimize it according to the competitor’s website search ranking. Working on google Analytics to check the crawl errors and to rectify it. AdWords campaign management for the most searching locations to get better performance. Local directory submissions are done in all the popular business directories. Sitemaps are generated for every websites.</p>
+		    <p><b>MyTaxe United Kingdom</b></p>
             </div>
           </div>
         </li><br/>
-        <li>
-          <div className="timeline-badge info"><img className="smallimg" src={require('../assets/hosting.png')} /></div>
+        <li className="timeline">
+          <div className="timeline-badge info"><img className="microimg" src={require('../assets/skyline.png')} /></div>
           <div className="timeline-panel">
             <div className="timeline-heading">
-              <h4 className="timeline-title">Lunch</h4>
-              <p><small className="text-muted"><i class="glyphicon glyphicon-time"></i> 12:30 – 1:30 NOON</small></p>
+              <h4 className="timeline-title">Optimization Specialist</h4>
+              <p><small className="text-muted"><i class="glyphicon glyphicon-time"></i> August 2018 - November 2018</small></p>
             </div>
             <div className="timeline-body">
-              <p>The Partcipants can have their lunch and get back to their events.</p>
+              <p>As an Optimization Specialist to work on the porfolio of advertisers account for promoting their products in amazon ecommerce through paid avertisements, providing account health report and so on.</p>
+		    <p><b>Amazon Development Centre India</b></p>
             </div>
           </div>
-        </li>
+        </li><br/>
+        <li className="timeline-inverted">
+          <div className="timeline-badge info"><img className="microimg" src={require('../assets/skyline.png')} /></div>
+          <div className="timeline-panel">
+            <div className="timeline-heading">
+              <h4 className="timeline-title">Mearchine Learning Associate</h4>
+              <p><small className="text-muted"><i class="glyphicon glyphicon-time"></i> December 2018 - Current</small></p>
+            </div>
+            <div className="timeline-body">
+              <p>As a Machine Learning Associate need to work on improving the quality of Alexa a Cloud based Virtual Assistant to make a better deliver of information to the customers around different Marketplace.</p>
+		    <p><b>Amazon Development Centre India</b></p>
+            </div>
+          </div>
+        </li><br/>
              
     </ul>
                     </center>
@@ -134,9 +147,15 @@ const Home = () =>
                 </div>
             </div>
         </div>
+<div class="tools">
+
+
+
+
+</div>
+
+
  </body>
     );
 };
-
-
-export default Home;
+   export default Home;
