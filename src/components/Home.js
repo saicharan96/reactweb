@@ -148,13 +148,85 @@ const Home = () =>
             </div>
         </div>
 <div class="tools">
-
-
-
-
+<div class="container">
+  <div class="row">
+  <div class="col-md-2">
+  <img className="smallimg" src={require('../assets/analytics.png')} />
+  <p>Google Analytics</p>
+    </div>
+    <div class="col-md-2">
+  <img className="smallimg" src={require('../assets/adwords.png')} />
+  <p>Google Adwords</p>
+    </div>
+    <div class="col-md-2">
+  <img className="smallimg" src={require('../assets/adsense.png')} />
+  <p>Google Adsense</p>
+    </div>
+    <div class="col-md-2">
+  <img className="smallimg" src={require('../assets/html5.png')} />
+  <p>HTML V5</p>
+    </div>
+    <div class="col-md-2">
+  <img className="smallimg" src={require('../assets/css-3.png')} />
+  <p>CSS V3</p>
+    </div>
+    <div class="col-md-2">
+  <img className="smallimg" src={require('../assets/angular.svg')} />
+  <p>Angular 6</p>
+    </div>
+    </div><hr/>
+    <div class="row">
+  <div class="col-md-2">
+  <img className="smallimg" src={require('../assets/bing.png')} />
+  <p>Bing Webmaster</p>
+    </div>
+    <div class="col-md-2">
+  <img className="smallimg medium"  src={require('../assets/facebook-ads.png')}  />
+  <p>Social Media Ads</p>
+    </div>
+    <div class="col-md-2">
+  <img className="smallimg medium martop" src={require('../assets/yahoo.png')} />
+  <p>Yahoo Gemini</p>
+    </div>
+    <div class="col-md-2">
+  <img className="smallimg medium" src={require('../assets/mybusiness.png')} />
+  <p>Google Local Business</p>
+    </div>
+    <div class="col-md-2">
+  <img className="smallimg medium" src={require('../assets/bing-logo-green.png')} />
+  <p>Bing Places</p>
+    </div>
+    <div class="col-md-2">
+  <img className="smallimg medium" src={require('../assets/mailchimp.png')} />
+    </div>
+    </div>
 </div>
-
-
+</div>
+<div className="contact">
+  <p>Need to Hire Me?</p>
+  <h3>Feel Free To Contact</h3>
+    <div className="container2">
+    <div className="card">
+      <div className="row">
+        <div className="col-md-6">
+        <input className="controls" placeholder="Name*" required /></div>
+        <div className="col-md-6">
+        <input className="controls" placeholder="Email Address*" required /></div>
+        <div className="col-md-6">
+        <input className="controls" placeholder="Contact Number*" required /></div>
+        <div className="col-md-6">
+        <input className="controls" placeholder="Subject*" required /></div>
+        </div>
+        <textarea className="controls"  placeholder="Write Your Message*" rows="10" required></textarea><br/>
+        <center>   <button className="buttonabout">Submit</button></center>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+        <div className="container">
+            <p>Copy © 2019 SEO Techie. Crafted  by <a href="http://seotechie.tk/">SEO Techie</a></p>
+        </div>
+    </footer>
  </body>
     );
 };
