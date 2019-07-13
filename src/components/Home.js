@@ -40,6 +40,41 @@ const Home = () =>
    <img className="aboutimage"  id="borderimg2" src={require('../assets/sai.jpg')} />
      </div>
     </div> </div></div>
+    <div className="service" data-scroll-index="2">
+        <div className="container">
+        <h3>My Quality Services</h3><br/>
+            <div className="row">
+                <div className="col-lg-3 col-md-6">
+                    <div className="service-single">
+                        <span>  <center><img className="smallimg" src={require('../assets/responsive.png')} /></center></span>
+                        <h5>Web Design</h5>
+                        <p>Web application development is accelerationg at an exponential rate. I deliver robust solutions that help with your requirements to grow while staying within your budget and on time delivery.</p>
+                    </div>
+                </div>
+                <div className="col-lg-3 col-md-6">
+                    <div className="service-single">
+                       <span><center><img className="smallimg" src={require('../assets/ads.png')} /></center></span>
+                        <h5>Digital Marketing</h5>
+                        <p>Creating Business Websites doesn't make sense, if it is not viewed by people all over the world, Digital Marketing is the solution for all these business marketing either in organic way or through paid advertising. </p>
+                    </div>
+                </div>
+                <div className="col-lg-3 col-md-6">
+                    <div class="service-single">
+                        <span><center><img className="smallimg" src={require('../assets/app-development.png')} /></center></span>
+                        <h5>App Development</h5>
+                        <p>There is a equal weightage of having a business website over the applications. Creating Business applications increase  more visibility to the business and to take the business over another level of growth.</p>
+                    </div>
+                </div>
+                <div className="col-lg-3 col-md-6">
+                    <div className="service-single">
+                         <span><center><img className="smallimg" src={require('../assets/hosting.png')} /></center></span>
+                        <h5>Cloud Hosting</h5>
+                        <p>The most popular and inexpensive method of hosting on the internet today is shared server hosting which is ideal for customers looking to host a simple website with basic features and their budget.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
  </body>
     );
 };

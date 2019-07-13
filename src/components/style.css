@@ -25,6 +25,39 @@ line-height:30px;
   {
     margin-top:50px;
   }  
+  .smallimg
+  {
+    max-width:60px;
+    width:100%;
+  }
+  .service {
+    padding: 110px 0 60px;
+    background-color: #f5f5f5;
+}
+.service-single {
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 40px 20px 20px;
+  background-color: #fff;
+  margin: 0 0 60px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+}
+.service-single h5
+{
+  font-family: 'Raleway', sans-serif;
+  line-height:40px;
+  text-align: center;
+  font-size:20px;
+  font-weight:700;
+}
+.service-single p{
+  text-align: left;
+  padding:2px;
+  font-size:15px;
+}
   .top
 {
   margin-top:50px !important;
@@ -61,7 +94,7 @@ background-color:#ffffff;
   font-size:25px;
   font-weight:700;
 }
-.maintext h3, .about h3{
+.maintext h3, .about h3, .service h3{
   font-family: 'Open Sans', sans-serif;
   font-weight:800;
   line-height:50px;
