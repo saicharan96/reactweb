@@ -75,6 +75,65 @@ const Home = () =>
             </div>
         </div>
 </div>
+<div className="timelinemain">
+<div className="container top">
+            <div className="row">
+                <div className="col-md-10" >
+                    <center>
+                      <h3>Event Timeline</h3>
+    <ul className="timeline">
+    	 <div className="time">
+					<center><h4 >DAY 1: MARCH 25th 2019 (MONDAY)</h4></center>
+				<br/>
+			</div>
+        <li>
+
+          <div className="timeline-badge warning"><img className="smallimg" src={require('../assets/hosting.png')} /></div>
+
+          <div className="timeline-panel">
+            <div className="timeline-heading">
+              <h4 className="timeline-title">INAUGURATION</h4>
+              <p><small className="text-muted"><i class="glyphicon glyphicon-time"></i> 9:30 AM - 11:00 AM</small></p>
+            </div>
+            <div className="timeline-body">
+              <p>All the participants are requested to complete their registration before the Inaugration.</p>
+               <p><span>Raman Auditorium</span></p>
+            </div>
+          </div>
+        </li><br/>
+        <li className="timeline-inverted">
+          <div className="timeline-badge success"><img className="smallimg" src={require('../assets/hosting.png')} /></div>
+          <div className="timeline-panel">
+            <div className="timeline-heading">
+              <h4 className="timeline-title">GUEST LECTURE</h4>
+              <p><small className="text-muted"><i class="glyphicon glyphicon-time"></i> 11:30 AM - 12:30 NOON</small></p>
+            </div>
+            <div className="timeline-body">
+              <p>The Guest Lecture will be starting sharply at the displayed time, participants are requested to be on time.</p>
+		    <p><span>Raman Auditorium</span></p>
+            </div>
+          </div>
+        </li><br/>
+        <li>
+          <div className="timeline-badge info"><img className="smallimg" src={require('../assets/hosting.png')} /></div>
+          <div className="timeline-panel">
+            <div className="timeline-heading">
+              <h4 className="timeline-title">Lunch</h4>
+              <p><small className="text-muted"><i class="glyphicon glyphicon-time"></i> 12:30 – 1:30 NOON</small></p>
+            </div>
+            <div className="timeline-body">
+              <p>The Partcipants can have their lunch and get back to their events.</p>
+            </div>
+          </div>
+        </li>
+             
+    </ul>
+                    </center>
+</div>
+                  
+                </div>
+            </div>
+        </div>
  </body>
     );
 };
