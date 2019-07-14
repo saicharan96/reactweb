@@ -21,9 +21,34 @@ const Home = () =>
 <a href="https://plus.google.com/u/0/100628277183215746934" target="_blank" class="fa fa-google"></a>
 <a href="https://www.linkedin.com/in/saicharan-govindaraj-578a2613b/" target="_blank" class="fa fa-linkedin"></a>
 <a href="https://www.instagram.com/sai_charan_explorer/?hl=en" target="_blank" class="fa fa-instagram"></a><br/>
- <button className="buttonread mid">Read More<i class="fa fa-angle-right"></i></button>
    </div>
+   
   </div>  
+  <div class="row">
+     <div class="col-md-3">
+     <div class="counter">
+                                <h3>22</h3>
+                                <p>Completed Project</p>
+                            </div>
+       </div>
+
+       <div class="col-md-3">
+     <div class="counter">
+                                <h3>16</h3>
+                                <p>Happy Clients</p>
+                            </div>
+       </div>
+
+       
+       <div class="col-md-3">
+     <div class="counter">
+     <h3>200</h3>
+       <p>Good Ranking Pages</p>
+                            </div>
+       </div>
+
+
+     </div>
   </div>
  </div>
  <div className="about">
