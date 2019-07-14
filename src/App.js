@@ -9,9 +9,7 @@ import Contact from './components/Contact';
 
 import Error from './components/Error';
 
-import product from './components/product';
-
-import pricing from './components/pricing';
+import portfolio from './components/portfolio';
 
 import Navigation from './components/Navigation';
 
@@ -27,9 +25,7 @@ class App extends Component {
 
 <Route path="/about" exact  component={About} />
 
-<Route path="/product" exact  component={product} />
-
-<Route path="/pricing" exact  component={pricing} />
+<Route path="/portfolio" exact  component={portfolio} />
 
 <Route path="/contact"  exact component={Contact} />
 
