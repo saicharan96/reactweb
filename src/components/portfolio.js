@@ -51,6 +51,30 @@ const pricing = () =>
 
     <div className="col-md-6">
     <div class="card">
+    <img className="cli" src={require('../assets/client5.png')} />
+    <h6>Website, control panel, Digital Marketing</h6>
+    <h4>Taxego</h4>
+    <ul>
+    <li><span>Completed Date:</span>Still on Development </li>
+    <li><span>Technologies :</span>HTML5, CSS3, PHP, SMM, SEO, Local Business</li>
+                                </ul>
+      </div>
+    </div>
+
+    <div className="col-md-6">
+    <div class="card">
+    <img className="cli" src={require('../assets/client3.png')} />
+    <h6>Website, Driver Job Portals</h6>
+    <h4>Drive 4 Me</h4>
+    <ul>
+                                    <li><span>Completed Date:</span> Redesigning</li>
+                                    <li><span>Technologies :</span>HTML5, CSS3, nodejs</li>
+                                </ul>
+      </div>
+    </div>  
+
+    <div className="col-md-6">
+    <div class="card">
     <img className="cli" src={require('../assets/client7.jpg')} />
     <h6>Website, Social media Marketing, Local Business, SEO</h6>
     <h4>Gatwick Taxis  United Kingdom</h4>
@@ -74,18 +98,71 @@ const pricing = () =>
       </div>
     </div>
 
-    
+  
+
     <div className="col-md-6">
     <div class="card">
-    <img className="cli" src={require('../assets/client5.png')} />
-    <h6>Website, control panel, Digital Marketing</h6>
-    <h4>Taxego</h4>
+    <img className="cli" src={require('../assets/client4.jpg')} />
+    <h6>Website, Email Marketing, Paytm Integration</h6>
+    <h4>Petrovision 2K19</h4>
     <ul>
-    <li><span>Completed Date:</span>Still on Process </li>
-    <li><span>Technologies :</span>HTML5, CSS3, PHP, SMM, SEO, Local Business</li>
+                                    <li><span>Completed Date:</span> 8th February 2019</li>
+                                    <li><span>Technologies :</span>HTML5, CSS3, PHP, SMM, Paytm API.</li>
                                 </ul>
       </div>
     </div>
+
+
+    <div className="col-md-6">
+    <div class="card">
+    <img className="cli" src={require('../assets/client2.jpg')} />
+    <h6>Website & Digital Marketing</h6>
+    <h4>AlMalik Haj services</h4>
+    <ul>
+                                    <li><span>Completed Date:</span> 22nd February 2019</li>
+                                    <li><span>Technologies :</span>HTML5, CSS3, PHP, SMM, SEO, Local Business</li>
+                                </ul>
+      </div>
+    </div>
+
+    <div className="col-md-6">
+    <div class="card">
+    <img className="cli" src={require('../assets/client1.jpg')} />
+    <h6>Website, Student Login portal, Admin Portal</h6>
+    <h4>Educatekid</h4>
+    <ul>
+                                    <li><span>Completed Date:</span> still on process</li>
+                                    <li><span>Technologies :</span>HTML5, CSS3, PHP, SMM, SEO, Local Business</li>
+                                </ul>
+      </div>
+    </div>
+
+
+    <div className="col-md-6">
+    <div class="card">
+    <img className="cli" src={require('../assets/client0.png')} />
+    <h6>Website, Admin Portal</h6>
+    <h4>Birmingham Taxis</h4>
+    <ul>
+                                    <li><span>Completed Date:</span> still on process</li>
+                                    <li><span>Technologies :</span>HTML5, CSS3, PHP, SMM, SEO, Local Business</li>
+                                </ul>
+      </div>
+    </div>
+
+
+    <div className="col-md-6">
+    <div class="card">
+    <img className="cli" src={require('../assets/project10.png')} />
+    <h6>User Interface & Alexa Sill</h6>
+    <h4>Alexa Passvault</h4>
+    <ul>
+                                    <li><span>Completed Date:</span> still on process</li>
+                                    <li><span>Technologies :</span>AWS Lambda, Alexa Skill Emulator, HTML5, Nodejs</li>
+                                </ul>
+      </div>
+    </div>
+
 
   </div>
 </div>
