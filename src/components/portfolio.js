@@ -73,6 +73,7 @@ const pricing = () =>
                                     <li><span>Completed Date:</span> Redesigning</li>
                                     <li><span>Technologies :</span>HTML5, CSS3, nodejs</li>
                                 </ul>
+                                <center><a href="https://startersup.github.io/drive/monitor/" target="_blank"><button className="buttonlive">Live Demo</button></a></center>
       </div>
     </div>  
 
@@ -85,6 +86,7 @@ const pricing = () =>
     <li><span>Completed Date:</span> 19 January 2018</li>
     <li><span>Technologies :</span> HTML5, CSS3, PHP, Google Ads, Facebook Ads.</li>                             
      </ul>
+     <center><a href="https://gatwick-airporttaxis.com/" target="_blank"><button className="buttonlive">Live Demo</button></a></center>
       </div>
     </div>
 
@@ -98,6 +100,7 @@ const pricing = () =>
                                     <li><span>Completed Date:</span> 23 october 2018</li>
                                     <li><span>Technologies :</span> HTML5, CSS3, PHP, Youtube Integration</li>
                                 </ul>
+                                <center><a href="http://rocketernalchurch.in/" target="_blank"><button className="buttonlive">Live Demo</button></a></center>
       </div>
     </div>
 
@@ -112,6 +115,7 @@ const pricing = () =>
                                     <li><span>Completed Date:</span> 8th February 2019</li>
                                     <li><span>Technologies :</span>HTML5, CSS3, PHP, SMM, Paytm API.</li>
                                 </ul>
+                                <center><a href="http://petrovision.co.in/" target="_blank"><button className="buttonlive">Live Demo</button></a></center>
       </div>
     </div>
 
@@ -125,6 +129,7 @@ const pricing = () =>
                                     <li><span>Completed Date:</span> 22nd February 2019</li>
                                     <li><span>Technologies :</span>HTML5, CSS3, PHP, SMM, SEO, Local Business</li>
                                 </ul>
+                                <center><a href="http://www.almalikhaj.com/" target="_blank"><button className="buttonlive">Live Demo</button></a></center>
       </div>
     </div>
 
@@ -137,6 +142,7 @@ const pricing = () =>
                                     <li><span>Completed Date:</span> still on process</li>
                                     <li><span>Technologies :</span>HTML5, CSS3, PHP, SMM, SEO, Local Business</li>
                                 </ul>
+                                <center><a href="http://petrovision.co.in/" target="_blank"><button className="buttonlive">Live Demo</button></a></center>
       </div>
     </div>
 
@@ -150,6 +156,7 @@ const pricing = () =>
                                     <li><span>Completed Date:</span> still on process</li>
                                     <li><span>Technologies :</span>HTML5, CSS3, PHP, SMM, SEO, Local Business</li>
                                 </ul>
+                                <center><a href="https://startersup.github.io/minicab/" target="_blank"><button className="buttonlive">Live Demo</button></a></center>
       </div>
     </div>
 
@@ -163,6 +170,7 @@ const pricing = () =>
                                     <li><span>Completed Date:</span> still on process</li>
                                     <li><span>Technologies :</span>AWS Lambda, Alexa Skill Emulator, HTML5, Nodejs</li>
                                 </ul>
+                                <center><a href="https://startersup.github.io/passwordvault/" target="_blank"><button className="buttonlive">Live Demo</button></a></center>
       </div>
     </div>
 
