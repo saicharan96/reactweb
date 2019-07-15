@@ -1,6 +1,5 @@
 import React  from 'react';
 import {Helmet} from "react-helmet";
-
 const pricing = () => 
 {
     return(
@@ -19,6 +18,7 @@ const pricing = () =>
        <li><span>Completed Date:</span> 06th March 2019</li>
        <li><span>Technologies :</span>HTML5, CSS3, PHP,Adobe Photoshop.</li>
     </ul>
+    <center><a href="http://chemfluence.in/" target="_blank"><button className="buttonlive">Live Demo</button></a></center>
       </div>
     </div>
 
@@ -32,6 +32,7 @@ const pricing = () =>
                                     <li><span>Completed Date:</span> 12 March 2018</li>
                                     <li><span>Technologies :</span> HTML5, CSS3, PHP, SEO</li>
                                 </ul>
+                                <center><a href="https://minicabee.co.uk/" target="_blank"><button className="buttonlive">Live Demo</button></a></center>
       </div>
     </div>
 
@@ -45,6 +46,7 @@ const pricing = () =>
                                     <li><span>Completed Date:</span> 16 April 2018</li>
                                     <li><span>Technologies :</span> PHP, HTML5, CSS3</li>
                                 </ul>
+                                <center><a href="http://atlascars-uk.com/" target="_blank"><button className="buttonlive">Live Demo</button></a></center>
       </div>
     </div>
   
@@ -58,6 +60,7 @@ const pricing = () =>
     <li><span>Completed Date:</span>Still on Development </li>
     <li><span>Technologies :</span>HTML5, CSS3, PHP, SMM, SEO, Local Business</li>
                                 </ul>
+                                <center><a href="https://startersup.github.io/cabuk/" target="_blank"><button className="buttonlive">Live Demo</button></a></center>
       </div>
     </div>
 

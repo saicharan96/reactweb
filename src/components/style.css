@@ -162,7 +162,6 @@ background-color:#ffffff;
 .cli
 {
   max-width:600px;
-  min-height:250px;
   width:100%;
 }
 .portfolio h4 {
@@ -281,6 +280,20 @@ background-color:#ffffff;
   display: inline-block;
   margin-bottom: 20px;
   font-size: 18px;
+}
+.buttonlive {
+  background-color: #91367B; 
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  color: #ffffff;
+  font-weight:500;
+  padding: 5px 20px;
+  border-radius:2px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: inline-block;
+  font-size: 15px;
 }
 .tools{
   padding:50px 0px;
@@ -549,6 +562,21 @@ padding-left:90px;
   font-weight: 400;
   line-height: 30px;
 }
-
-
+.hidden-sm
+{
+  display:none;
+}
+.container2
+{
+  margin-left:5px;
+  margin-right:5px;
+}
+#footer {
+  background-color: #000;
+  text-align: center;
+  padding: 30px;
+  font-size:15px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
 }

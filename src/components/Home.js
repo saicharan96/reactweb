@@ -1,5 +1,6 @@
 import React  from 'react';
 import {Helmet} from "react-helmet";
+import { Link } from 'react-router-dom';
 import './style.css';
 
 const Home = () => 
@@ -59,7 +60,7 @@ const Home = () =>
    <p>A passionate digital marketer expertise in building SEO friendly responsive websites and optimize according to the business needs to drive traffic in different search engines like Google,Yandex, Microsoft Bing, Baidu, Yahoo and improves the business searches and visibilty using Paid Ads with ultimate result towards ROI.</p>
     <p><b>Email: saiseotechie@gmail.com</b></p>
     <p><b> Phone: + 91 9551936390</b></p>
-   <button className="buttonabout">Read More<i class="fa fa-angle-right"></i></button>
+    <Link to="/about"> <button className="buttonabout">Read More<i class="fa fa-angle-right"></i></button></Link>
    </div>
    <div className="col-md-6">
    <img className="aboutimage"  id="borderimg2" src={require('../assets/sai.jpg')} />
@@ -172,9 +173,9 @@ const Home = () =>
                 </div>
             </div>
         </div>
-<div class="tools">
+<div class="tools hidden-sm">
 <div class="container">
-  <div class="row">
+  <div class="row ">
   <div class="col-md-2">
   <img className="smallimg" src={require('../assets/analytics.png')} />
   <p>Google Analytics</p>
