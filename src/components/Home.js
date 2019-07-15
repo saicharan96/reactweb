@@ -47,9 +47,7 @@ const Home = () =>
        <p>Good Ranking Pages</p>
                             </div>
        </div>
-
-
-     </div>
+    </div>
   </div>
  </div>
  <div className="about">
@@ -91,7 +89,7 @@ const Home = () =>
                         <p>There is a equal weightage of having a business website over the applications. Creating Business applications increase  more visibility to the business and to take the business over another level of growth.</p>
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-6">
+ <div className="col-lg-3 col-md-6">
                     <div className="service-single">
                          <span><center><img className="smallimg" src={require('../assets/hosting.png')} /></center></span>
                         <h5>Cloud Hosting</h5>
@@ -164,8 +162,7 @@ const Home = () =>
 		    <p><b>Amazon Development Centre India</b></p>
             </div>
           </div>
-        </li><br/>
-             
+        </li><br/>       
     </ul>
                     </center>
 </div>

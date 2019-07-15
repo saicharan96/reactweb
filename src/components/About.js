@@ -20,7 +20,7 @@ const About = () =>
       <br/> <span className="right">-Neil Patel</span></b></p></div><br/>
     <p><b>Email: saiseotechie@gmail.com</b></p>
     <p><b> Phone: + 91 9551936390</b></p>
-   <button className="buttonabout">Contact Me</button>
+    <a href="tel:9551936390"><button className="buttonabout">Contact Me</button></a>
    </div>
    <div className="col-md-6">
    <img className="aboutimage"  id="borderimg2" src={require('../assets/sai.jpg')} />

@@ -1,7 +1,6 @@
 import React  from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown'
 import { Link } from 'react-router-dom';
 import './Navigation.css';
 const Navigation = () => 
@@ -17,7 +16,7 @@ const Navigation = () =>
               <Nav.Link><Link to="/" className="active">Home</Link></Nav.Link>
               <Nav.Link><Link to="/about" className="active">About</Link></Nav.Link>
               <Nav.Link><Link to="/portfolio" className="active">Portfolio</Link></Nav.Link>
-              <Nav.Link><Link to="/product" className="active">Contact me</Link></Nav.Link>
+              <Nav.Link><Link to="/contact" className="active">Contact me</Link></Nav.Link>
             </Nav>
           </Navbar.Collapse>
           </div> 
