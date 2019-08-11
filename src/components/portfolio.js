@@ -142,7 +142,7 @@ const pricing = () =>
                                     <li><span>Completed Date:</span> still on process</li>
                                     <li><span>Technologies :</span>HTML5, CSS3, PHP, SMM, SEO, Local Business</li>
                                 </ul>
-                                <center><a href="http://petrovision.co.in/" target="_blank"><button className="buttonlive">Live Demo</button></a></center>
+                                <center><a href="http://educatekid.in/" target="_blank"><button className="buttonlive">Live Demo</button></a></center>
       </div>
     </div>
 
