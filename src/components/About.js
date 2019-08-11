@@ -5,7 +5,7 @@ const About = () =>
 {
     return(
 <body>
-  <Helmet><title>About Me</title></Helmet>
+  <Helmet><title>About Me | SeoTechie</title></Helmet>
   <div className="about">
    <div className="container">
      <div className="row">

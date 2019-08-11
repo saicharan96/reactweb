@@ -2,39 +2,41 @@
 .navbar
 {
     width:100%;
-    max-height:60px;
-    background:#36344d;
+    max-height:55px;
+    background:#ffffff !important;
 font-style: normal;
 display:flex;
 font-family: 'Raleway', sans-serif;
+box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
 }
 .head
 {
-    color:#ffffff;
+    color:#000000;
     font-size:30px;
     padding:5px 15px !important;
     letter-spacing:1px;
     font-family: 'Lilita One', cursive;
 }
 .head span{
-    color:yellow;
+    color:#375895;
 }
 .head:hover{
-    color:#ffffff;
+    color:#000000;
     text-decoration: none;
 }
 .active
 {
-    color:#ffffff;
+    color:#000000;
     font-size:16px;
-    padding:5px 15px !important;
+    margin:10px 5px;
+    padding:17px 15px !important;
     letter-spacing: 0.8px;
     line-height: 24px;
-    font-weight:600;
+    font-weight:800;
     font-family: 'Raleway', sans-serif;
 }
 .active:hover{
-    color:yellow;
+    font-weight:800;
     text-decoration: none;
 }
 .logo
@@ -43,6 +45,13 @@ font-family: 'Raleway', sans-serif;
  font-size:18px;
  color:#ffffff;
  padding:10px;
+}
+.navbar-collapse {
+    background-color: #ffffff !important;
+}
+ .navbar-toggler {
+    background-color:#000000 !important;
+    border-color : transparent;
 }
 .navigation
 {
@@ -74,4 +83,13 @@ font-family: 'Raleway', sans-serif;
 .spacer
 {
     flex: 0.4;
+}
+.navbar-dark .navbar-toggler {
+    margin-top:-10px;
+    color: #000000;
+    border-color: rgba(255,255,255,.1);
+}
+.navbar-toggler {
+    background-color: #f4f4f4 !important;
+    border-color: transparent;
 }

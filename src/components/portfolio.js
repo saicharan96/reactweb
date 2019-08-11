@@ -5,7 +5,7 @@ const pricing = () =>
     return(
 <body>
   <div className="portfolio">
-<Helmet><title>Projects worked on</title></Helmet>
+<Helmet><title>Projects | SEO Techie</title></Helmet>
 <div className="container">
 <h3 className="center">Projects I Worked on</h3>
 <div className="row">
