@@ -132,7 +132,18 @@ const pricing = () =>
                                 <center><a href="http://www.almalikhaj.com/" target="_blank"><button className="buttonlive">Live Demo</button></a></center>
       </div>
     </div>
-
+    <div className="col-md-6">
+    <div class="card">
+    <img className="cli" src={require('../assets/client11.PNG')} />
+    <h6>Website & Digital Marketing</h6>
+    <h4>Etude School of Music</h4>
+    <ul>
+                                    <li><span>Completed Date:</span> 24th April 2019</li>
+                                    <li><span>Technologies :</span>HTML5, CSS3, PHP, SMM, SEO</li>
+                                </ul>
+                                <center><a href="http://etudemusicschool.com/" target="_blank"><button className="buttonlive">Live Demo</button></a></center>
+      </div>
+    </div>
     <div className="col-md-6">
     <div class="card">
     <img className="cli" src={require('../assets/client1.jpg')} />
@@ -173,7 +184,18 @@ const pricing = () =>
                                 <center><a href="https://startersup.github.io/passwordvault/" target="_blank"><button className="buttonlive">Live Demo</button></a></center>
       </div>
     </div>
-
+    <div className="col-md-6">
+    <div class="card">
+    <img className="cli" src={require('../assets/client10.PNG')} />
+    <h6>User Interface, API integrations, Deployment</h6>
+    <h4>Construction Desk</h4>
+    <ul>
+                                    <li><span>Completed Date:</span> still on process</li>
+                                    <li><span>Technologies :</span>AWS EC2, HTML5, emberjs, Nodejs</li>
+                                </ul>
+                                <center><a href="#" target="_blank"><button className="buttonlive">Live Demo</button></a></center>
+      </div>
+    </div>
 
   </div>
 </div>
